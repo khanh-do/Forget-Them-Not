@@ -1,0 +1,39 @@
+*.swp
+**/__pycache__
+*/__pycache__/*
+*.pyc
+*/__pycache__/*
+
+.python-version
+
+.vscode/
+
+*.log
+
+*/.env
+.env
+
+# dependencies
+frontend/node_modules/*
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+*.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/yarn.lock
+frontend/package.json
+
+node_modules
